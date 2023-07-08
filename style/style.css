@@ -13,16 +13,21 @@ body{
 }
 header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
 }
 .nav-title h3{
     color: #181818;
     font-size: 45px;
-    font-weight: 800px;
+    font-weight: 800;
+    line-height: normal;
 }
 .nav-btn-part > ul{
     display: flex;
@@ -47,13 +52,84 @@ header{
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
+    /* cursor:crosshai; */
 }
-
+/* baner style */
 .banner{
     display: flex;
     align-items: center;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+
 }
-.banner img{
-    width: 500px;
+.banner-img img{
+    width: 400px;
+    transform: translateY(5px)
+
+    
+}
+.baner-content h3{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #181818;
+}
+.baner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 0;
+}
+.baner-content p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 570px;
+}
+.baner-content .primary-btn{
+    margin-right: 30px;
+}
+
+/* main-section */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* about-section */
+
+.about{
+    margin: 80px 0;
+    padding: 80px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.sectoion-ditele{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+        color: #4c4b4b;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.about-info h4{
+    line-height: 0;
 }
