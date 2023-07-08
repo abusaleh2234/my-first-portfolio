@@ -133,3 +133,109 @@ line-height: 30px;
 .about-info h4{
     line-height: 0;
 }
+
+/* what i larn skill */
+
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+.skill{
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-ditels{
+    color: #757575;
+    font-size: 16px;;
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 1px;
+}
+
+
+/* resume-section */
+.resume-section{
+    padding: 70px;
+}
+.resume{
+    display: flex;
+    column-gap: 40px;
+    /* justify-content: space-around; */
+
+}
+.dow-cv{
+    text-align: center;
+}
+.edu-exp-headtitle{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.edu-exp-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.edu-exp-subtitle{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.education-info ,.expreance-info{
+    width: 550px;
+}
+.education-info p {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 460px;
+}
+.expreance-info p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 460px;
+}
+
+/* footer-section */
+.footer-section{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    display: flex;
+    padding: 80px 0px 80px 140px;
+    justify-content: space-between;
+
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.socal-link ul{
+    list-style: none;
+    display: flex;
+}
+/* .socal-link ul li{
+    padding-right: 20px;
+} */
+.massege input, textarea{
+    padding: 18px 250px 18px 30px;
+    margin: 30px 0;
+}
+/* .massege input{
+    
+} */
