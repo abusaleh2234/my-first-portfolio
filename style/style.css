@@ -248,3 +248,31 @@ line-height: 30px;
 /* .massege input{
     
 } */
+.hide{
+    display: none;
+}
+/* Responsive */
+@media screen and (max-width:576px) {
+    .skill-container , .resume{
+        flex-direction: column;
+    }
+    .resume-section{
+        padding: 18px;
+    }
+    .education-info ,.expreance-info{
+        width: 100%;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 20px 0px 20px 20px;
+    }
+    .connect, .massege{
+        width: calc(100% - 40px);
+    }
+    .massege input[type="text"], .massege input[type="email"], textarea{
+        padding: 18px 66px 18px 30px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+}
