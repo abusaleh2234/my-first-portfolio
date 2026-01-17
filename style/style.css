@@ -1,50 +1,55 @@
-
 /* *{
     padding: 0;
     margin: 0;
 } */
 /* commin font */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.primary-color{
+.primary-color {
     color: #FD6E0A;
 }
-header{
+
+header {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 30px 0px 150px;
 }
-.nav-title h3{
+
+.nav-title h3 {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
     line-height: normal;
 }
-.nav-btn-part > ul{
+
+.nav-btn-part>ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
-.nav-btn-part li{
+
+.nav-btn-part li {
     font-size: 20px;
     font-weight: 400;
     padding-right: 50px;
 }
-.nav-btn-part li a{
+
+.nav-btn-part li a {
     text-decoration: none;
     color: #181818;
 }
 
-.primary-btn{
+.primary-btn {
     font-size: 20px;
     font-weight: 700;
     color: #FFF;
@@ -54,57 +59,62 @@ header{
     border: none;
     /* cursor:crosshai; */
 }
+
 /* baner style */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     padding: 30px 30px 0px 150px;
     justify-content: space-between;
 
 }
-.banner-img img{
+
+.banner-img img {
     width: 400px;
     transform: translateY(5px)
-
-    
 }
-.baner-content h3{
+
+.baner-content h3 {
     font-size: 45px;
     font-weight: 600px;
     color: #181818;
 }
-.baner-content h1{
+
+.baner-content h1 {
     font-size: 85px;
     font-weight: 700;
     line-height: 0;
 }
-.baner-content p{
+
+.baner-content p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     max-width: 570px;
 }
-.baner-content .primary-btn{
+
+.baner-content .primary-btn {
     margin-right: 30px;
 }
 
 /* main-section */
-main{
+main {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 /* about-section */
 
-.about{
+.about {
     margin: 80px 0;
     padding: 80px;
     border-radius: 10px;
     background-color: #FFF8F3;
 
 }
-.section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -112,50 +122,57 @@ main{
 
 }
 
-.sectoion-ditele{
+.sectoion-ditele {
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
-        color: #4c4b4b;
+    color: #4c4b4b;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
 }
-.about-info h4{
+
+.about-info h4 {
     line-height: 0;
 }
 
 /* what i larn skill */
 
-.skill-container{
+.skill-container {
     display: flex;
     justify-content: space-around;
     column-gap: 20px;
 }
-.skill{
+
+.skill {
     background-color: #FFF;
     padding: 40px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 
 }
-.skill-title{
+
+.skill-title {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
 }
-.skill-ditels{
+
+.skill-ditels {
     color: #757575;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     font-weight: 400;
     line-height: 28px;
     word-spacing: 1px;
@@ -163,38 +180,46 @@ line-height: 30px;
 
 
 /* resume-section */
-.resume-section{
+.resume-section {
     padding: 70px;
 }
-.resume{
+
+.resume {
     display: flex;
     column-gap: 40px;
     /* justify-content: space-around; */
 
 }
-.dow-cv{
+
+.dow-cv {
     text-align: center;
 }
-.edu-exp-headtitle{
+
+.edu-exp-headtitle {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 
 }
-.edu-exp-title{
+
+.edu-exp-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
 }
-.edu-exp-subtitle{
+
+.edu-exp-subtitle {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
 
 }
-.education-info ,.expreance-info{
+
+.education-info,
+.expreance-info {
     width: 550px;
 }
+
 .education-info p {
     color: #757575;
     font-size: 16px;
@@ -202,7 +227,8 @@ line-height: 30px;
     line-height: 28px;
     max-width: 460px;
 }
-.expreance-info p{
+
+.expreance-info p {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
@@ -211,68 +237,116 @@ line-height: 30px;
 }
 
 /* footer-section */
-.footer-section{
+.footer-section {
     background-color: #FFF8F3;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     padding: 80px 0px 80px 140px;
     /* justify-content: space-between; */
 
 }
-.connect, .massege{
+
+.connect,
+.massege {
     width: 50%;
 }
-.connect p{
+
+.connect p {
     max-width: 550px;
 }
-.footer-title{
+
+.footer-title {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
 }
+
 .socal-link ul {
     display: flex;
     list-style: none;
-    transform:translateX(-45px);
+    transform: translateX(-45px);
 }
-.socal-link ul li{
+
+.socal-link ul li {
     padding-right: 20px;
 }
-.massege input[type="text"], .massege input[type="email"], textarea{
+
+.massege input[type="text"],
+.massege input[type="email"],
+textarea {
     padding: 18px 250px 18px 30px;
     margin: 10px 0;
     border: 0;
     border-radius: 5px;
 }
+
 /* .massege input{
     
 } */
-.hide{
+.hide {
     display: none;
 }
+
 /* Responsive */
 @media screen and (max-width:576px) {
-    .skill-container , .resume{
+
+    .skill-container,
+    .resume,
+    .banner, .navbar , .nav-btn-part>ul {
         flex-direction: column;
     }
-    .resume-section{
-        padding: 18px;
+
+    .banner , .navbar {
+        padding: 30px;
     }
-    .education-info ,.expreance-info{
+
+    .baner-content h1 {
+        font-size: 40px;
+    }
+
+    .baner-content p {
+        font-size: 14px;
+    }
+
+    .baner-content h3 {
+        font-size: 25px;
+
+    }
+    .primary-btn{
+        margin-bottom: 20px;
+    }
+    .banner-img img {
         width: 100%;
     }
-    .footer-container{
+
+    .resume-section {
+        padding: 18px;
+    }
+
+    .education-info,
+    .expreance-info {
+        width: 100%;
+    }
+
+    .footer-container {
         flex-direction: column;
         padding: 20px 0px 20px 20px;
     }
-    .connect, .massege{
+
+    .connect,
+    .massege {
         width: calc(100% - 40px);
     }
-    .massege input[type="text"], .massege input[type="email"], textarea{
+
+    .massege input[type="text"],
+    .massege input[type="email"],
+    textarea {
         padding: 18px 66px 18px 30px;
     }
-    .about-info-container{
+
+    .about-info-container {
         flex-direction: column;
     }
 }
